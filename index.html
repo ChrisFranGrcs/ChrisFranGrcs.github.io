@@ -15,12 +15,12 @@
     <title>Christian Umaña</title>
 </head>
 <body class="p-3">
-<div class="panel row justify-content-center p-3">    
+<div class="panel row justify-content-center p-3 m-1">    
     <header>
-        <h1 class="text-center">Christian Umaña</h1>
-        
+        <h1 class="col-12 col-md-12 text-center">Christian Umaña</h1>   
     </header>
-    <div class="screen col-10 col-md-11 vh-100">
+
+    <div class="screen col-10 col-md-11 vh-100 overflow-auto">
         <nav class="navbar navbar-expand-lg navbar-dark scrTxt">
             <div class="container-fluid">
                 <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent">
@@ -32,15 +32,63 @@
                             <a class="nav-link active mediumS scrTxt" href="#">Home</a>
                         </li>
                         <li class="nav-item">
-                            <a class="nav-link mediumS scrTxt" href="#">Github</a>
+                            <a class="nav-link mediumS scrTxt" href="#">Portafolio</a>
                         </li>
                     </ul>
                 </div>
             </div>
         </nav>
-        <h1>Sobre Mí <span>_</span></h1>
+        <hr>
+        <h1 class="p-2">Sobre Mí <span>_</span></h1>
+        <p>Estudiante Front End Interesado en hacer la web más interacitva. </p>
+
+        <div class="container text-center border rounded rounded-4 border-light pt-2 mt-3">
+            <h2>Educación</h2>
+            <hr>
+            <div id="carouselExampleCaptions" class="carousel slide" data-bs-ride="carousel">
+                <div class="carousel-indicators">
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                </div>
+                <div class="carousel-inner">
+                    <div class="carousel-item active" data-bs-interval="false">
+                        <div style="min-height: 140px;"></div>
+                        <div class="carousel-caption d-block">
+                                <p>Educación media completa 2010-2013.</p>
+                        </div>
+                    </div>
+                    <div class="carousel-item" data-bs-interval="false">
+                        <div style="min-height: 140px;"></div>
+                        <div class="carousel-caption d-block">
+                            <p>Cursando Front End en Desafío Latam 2025.</p>
+                        </div>
+                    </div>
+                </div>
+                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="prev">
+                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Previous</span>
+                </button>
+                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide="next">
+                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                    <span class="visually-hidden">Next</span>
+                </button>
+            </div>
+        </div>
+
+        <div class="card screen text-center border rounded rounded-4 border-light pt-2 mt-3">
+            <h2>Experiencia</h2>
+            <hr>
+            <ul class="text-start">
+                <li>Atención de personas y confección de repostería 2015-Actualidad</li>
+                <li>Stack Tecnológico: C#, Html/css, javascript, Bootstrap.</li>
+                <li>Inglés intermedio.</li>
+                <li>Uso intermedio Word, Powerpoint y Exel o equivalentes.</li>
+            </ul>
+        </div>
+        
     </div>
-    <footer>&copy Christian Umaña 2025</footer>
+
+    <footer class="col-12 col-md-12 p-2 pb-0">&copy Christian Umaña 2025</footer>
 </div>
 
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.bundle.min.js"
